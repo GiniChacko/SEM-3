@@ -1,0 +1,46 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+ --------------------------------------------------------------------------------------------------------------
+ POSTLABS
+ 
+Q.1] What is Immutable String?
+
+Ans:In java, string objects are immutable. Immutable simply means unmodifiable or unchangeable.
+	Once string object is created its data or state can't be changed but a new string object is created.
+	example:
+	String s="Sachin";  
+    s.concat(" Tendulkar");//concat() method appends the string at the end  
+    System.out.println(s);//will print Sachin because strings are immutable objects  
+    
+---------------------------------------------------------------------------------------------------------------    
+Q.2] Why we can not extend String class with any user defined class?
+ 
+Ans:String class is an immutable class.They are declared as final by default.Therefore we cannot 
+    extend String class with any other user defined class.
+ 
+ --------------------------------------------------------------------------------------------------------------
+Q.3] How Objects utilize String Constant Pool.?
+ 
+Ans:A string constant pool is a separate place in the heap memory where the values of all the
+   strings which are defined in the program are stored.
+   When we declare a string, an object of type String is created in the stack, while an 
+   instance with the value of the string is created in the heap. 
+   On standard assignment of a value to a string variable, the variable is allocated stack, 
+   while the value is stored in the heap in the string constant pool. For example, 
+
+   String str1 = "Hello";
+   
+   In the above scenario, a string object is created in the stack, and the value “Hello” 
+   is created and stored in the heap. Since we have normally assigned the value, it is stored
+   in the constant pool area of the heap. A pointer points towards the value stored in the heap 
+   from the object in the stack. 
+   
+ -------------------------------------------------------------------------------------------------------------
+ CONCLUSION : Strings are a sequence of characters and are widely used in Java programming. In the Java 
+              programming language, strings are objects. The String class has over 60 methods and 13 
+              constructors.Here all the cases were tested successfully and understood.
+              
+--------------------------------------------------------------------------------------------------------------

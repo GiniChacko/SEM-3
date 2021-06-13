@@ -1,0 +1,60 @@
+/**
+ * NAME : GINI CHACKO
+ * CLASS : SE COMPS B
+ * ROLL : 8942
+ */
+-----------------------------------------------------------------------------------------------------	
+	OUTPUT :
+	
+    ===============================
+	testCalculateTax()
+	
+	Goods [description = bubble bath, price = 1.4]
+	
+	Food [calories = 1500.0Goods [description = ox tails, price = 4.45]]
+	
+	Toy [minimumAge = 8Goods [description = Legos, price = 54.45]]
+	Tax of Legos is 3.267
+	
+	Book [author = AustinGoods [description = Emma, price = 24.95]]
+	Tax of the book Emma whose author Austin is 1.4969999999999999
+	
+	===============================
+	testDisplayGoods()
+	
+	Goods [description = bubble bath, price = 1.4]
+	Food [calories = 1500.0Goods [description = ox tails, price = 4.45]]
+	Book [author = AustenGoods [description = Emma, price = 24.95]]
+	Toy [minimumAge = 8Goods [description = Leggos, price = 54.45]]
+	===============================
+	testDisplayTaxableGoods()
+	
+	Tax on item 1 is 1.4969999999999999
+	Tax on item 2 is 3.267
+	Book [author = AustenGoods [description = Emma, price = 24.95]]
+	Toy [minimumAge = 8Goods [description = Leggos, price = 54.45]]
+	===============================
+	testCastingOfGoods()
+	
+	Tax on item 1 1.4969999999999999
+	Author: Austen
+	===============================
+	testcastingOfBook()
+	
+	Book [author = AustenGoods [description = Emma, price = 24.95]]
+	Tax on item 1 1.4969999999999999
+	===============================
+	testcastingOfToy()
+	
+	Toy [minimumAge = 6Goods [description = Building Blocks, price = 1.49]]
+	Tax: 0.0894
+	===============================
+	testExciseTaxWithBaseTax()
+	
+	Goods [description = samsung Imported, price = 50000.0]
+	Tax for Samsung Imported TV 3000.0
+	Excise Tax for LG  Imported TV 1000.0
+	
+	Goods [description = LG , price = 70000.0]
+	Tax for LG Imported TV 4200.0
+	Excise Tax for LG  Imported TV 1400.0

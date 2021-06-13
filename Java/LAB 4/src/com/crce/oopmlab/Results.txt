@@ -1,0 +1,51 @@
+/**
+ * NAME : GINI CHACKO
+ * CLASS : SE COMPS B
+ * ROLL : 8942
+ */
+ 
+ 
+	===============================
+	testSavingsAccountBehaviour()
+	
+	Balance in Rinu's account after depositing 10000: 10000.0
+	Balance in Rinu's account after withdrawing 500 : 9500.0
+	
+	Balance in Rinu's account after transferring 2000 to Praisy's account :7500.0
+	Balance in Praisy's account after receiving the transaction : 2000.0
+	===============================
+	testCheckingAccountBehaviour() 
+	
+	Balance in Praisy's account after depositing 2000 : 2000.0
+	Balance in Praisy's account after withdrawing 400 : 1600.0
+	Balance in Praisy's account after withdrawing 400 : 1200.0
+	Balance in Praisy's account after withdrawing 400 : 800.0
+	
+	Balance in Praisy's account after receiving the transaction : 2800.0
+	Balance in Rinu's account after transferring 2000 to Praisy's account : 8000.0
+	===============================
+	testBankAccountBehaviour()
+	
+	Balance in bank account 1 after depositing 10000 : 10000.0
+	Balance in bank account 1 after depositing 5000 : 15000.0
+	Balance in bank account 1 after depositing 5000 : 20000.0
+	
+	Balance in bank account 1 after transferring 2000 to bank account 2 : BankAccount{balance=18000.0}
+	Balance in bank account 2 after receiving the transaction : BankAccount{balance=7000.0}
+	
+	Balance in bank account 1 after receiving the transaction : BankAccount{balance=22000.0}
+	Balance in bank account 2 after transferring 4000 to bank account 1 : BankAccount{balance=3000.0}
+	======================================
+	testTimeDepositeAccountBehaviour()
+	
+	Balance in account after depositing 10000: 10000.0
+	Balance in account after transferring 980 : 8970.0
+	2
+	2
+	2
+	Balance in account after penalty : 9059.7
+	===============================
+	testPolymorphicCalls()
+	
+	Balance in the end of the month : 10200.0
+ 

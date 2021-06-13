@@ -1,0 +1,98 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+	
+	
+	OUTPUT : 
+	
+	------------------------------------------------------------------------------------
+	
+	=============Enter The Task details============
+	Please enter task name : 
+	task1
+	Please enter employee name : 
+	emp1
+	Please enter the due date in the format dd/MM/yyyy : 
+	1/1/2020
+	[Task [taskName=task1, deadline=Wed Jan 01 00:00:00 IST 2020, employee=emp1, isDone=false]]
+	=============Enter The Task details============
+	Please enter task name : 
+	task2
+	Please enter employee name : 
+	emp2
+	Please enter the due date in the format dd/MM/yyyy : 
+	2/2/2021
+	[Task [taskName=task1, deadline=Wed Jan 01 00:00:00 IST 2020, employee=emp1, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=false]]
+	=============Enter The Task details============
+	Please enter task name : 
+	task3
+	Please enter employee name : 
+	emp3
+	Please enter the due date in the format dd/MM/yyyy : 
+	3/3/2022
+	[Task [taskName=task1, deadline=Wed Jan 01 00:00:00 IST 2020, employee=emp1, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=false], Task [taskName=task3, deadline=Thu Mar 03 00:00:00 IST 2022, employee=emp3, isDone=false]]
+	
+	Inside display the toDoList()
+	The task Name task1 is assigned to emp1 is given deadline as Wed Jan 01 00:00:00 IST 2020 having status as false
+	The task Name task2 is assigned to emp2 is given deadline as Tue Feb 02 00:00:00 IST 2021 having status as false
+	The task Name task3 is assigned to emp3 is given deadline as Thu Mar 03 00:00:00 IST 2022 having status as false
+	------------------------------------------------------------------------------------
+	
+	*********Please Enter Upadates**********
+	Please enter task name : 
+	task1
+	Please enter employee name : 
+	Gini
+	Please enter the due date in the format dd/MM/yyyy : 
+	4/4/2025
+	Inside renameTask :task1
+	[Task [taskName=task1, deadline=Wed Jan 01 00:00:00 IST 2020, employee=emp1, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=false], Task [taskName=task3, deadline=Thu Mar 03 00:00:00 IST 2022, employee=emp3, isDone=false]]
+	inside
+	inside
+	inside
+	[Task [taskName=task1, deadline=Fri Apr 04 00:00:00 IST 2025, employee=Gini, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=false], Task [taskName=task3, deadline=Thu Mar 03 00:00:00 IST 2022, employee=emp3, isDone=false]]
+	
+	Inside display the toDoList()
+	The task Name task1 is assigned to Gini is given deadline as Fri Apr 04 00:00:00 IST 2025 having status as false
+	The task Name task2 is assigned to emp2 is given deadline as Tue Feb 02 00:00:00 IST 2021 having status as false
+	The task Name task3 is assigned to emp3 is given deadline as Thu Mar 03 00:00:00 IST 2022 having status as false
+	------------------------------------------------------------------------------------
+	
+	Inside markAsDone()
+	[Task [taskName=task1, deadline=Fri Apr 04 00:00:00 IST 2025, employee=Gini, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=true], Task [taskName=task3, deadline=Thu Mar 03 00:00:00 IST 2022, employee=emp3, isDone=false]]
+	
+	Inside display the toDoList()
+	The task Name task1 is assigned to Gini is given deadline as Fri Apr 04 00:00:00 IST 2025 having status as false
+	The task Name task2 is assigned to emp2 is given deadline as Tue Feb 02 00:00:00 IST 2021 having status as true
+	The task Name task3 is assigned to emp3 is given deadline as Thu Mar 03 00:00:00 IST 2022 having status as false
+	------------------------------------------------------------------------------------
+	
+	Inside removeTask()
+	
+	Removing an existing Task
+	Task deleted successfully
+	[Task [taskName=task1, deadline=Fri Apr 04 00:00:00 IST 2025, employee=Gini, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=true]]
+	
+	Inside display the toDoList()
+	The task Name task1 is assigned to Gini is given deadline as Fri Apr 04 00:00:00 IST 2025 having status as false
+	The task Name task2 is assigned to emp2 is given deadline as Tue Feb 02 00:00:00 IST 2021 having status as true
+	------------------------------------------------------------------------------------
+	
+	Inside assignDeadline()
+	Task Deadline Assigned successfully
+	[Task [taskName=task1, deadline=Mon Dec 12 00:00:00 IST 2022, employee=Gini, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=true]]
+	
+	Inside display the toDoList()
+	The task Name task1 is assigned to Gini is given deadline as Mon Dec 12 00:00:00 IST 2022 having status as false
+	The task Name task2 is assigned to emp2 is given deadline as Tue Feb 02 00:00:00 IST 2021 having status as true
+	------------------------------------------------------------------------------------
+	
+	Inside assignTask()
+	Task Assigned to Employee Sucessfully
+	[Task [taskName=task1, deadline=Mon Dec 12 00:00:00 IST 2022, employee=Hema, isDone=false], Task [taskName=task2, deadline=Tue Feb 02 00:00:00 IST 2021, employee=emp2, isDone=true]]
+	
+	Inside display the toDoList()
+	The task Name task1 is assigned to Hema is given deadline as Mon Dec 12 00:00:00 IST 2022 having status as false
+	The task Name task2 is assigned to emp2 is given deadline as Tue Feb 02 00:00:00 IST 2021 having status as true

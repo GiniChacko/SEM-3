@@ -1,0 +1,74 @@
+1] SortingOperationsTester:
+
+	5
+	Enter all the elements: 
+	13 10 45 23 9 10 19
+	Inputed Array is: 
+	13	
+	10	
+	45	
+	23	
+	9	
+	
+	
+	Array in Ascending Order: 
+	9	
+	10	
+	13	
+	23	
+	45	
+	
+	
+	Array in Descending Order: 
+	45	
+	23	
+	13	
+	10	
+	9	
+
+
+2] BankOperationsTester:
+
+	Account No: 29469 Balance: 10000.0
+	1500.0 is Deposited.
+	Account No: 29469 Balance: 11500.0
+	2500.0 is Withdrawn.
+	Account No: 29469 Balance: 9000.0
+
+
+3] StackOperationsTester:
+
+	Inserting 10
+	Inserting 11
+	Inserting 12
+	Inserting 13
+	Removing  13
+	Removing  12
+	Removing  11
+	Removing  10
+	Stack Underflow
+	 Program Terminated
+	
+
+4] SignCheckerTester:
+
+	Random Array is: 
+	11	8	-5	-15	0	-9	7	-4	-4	1	8	23	
+	
+	Positive Even numbers from given array are as follows
+	8
+	8
+	
+	Negative numbers from given array are as follows: 
+	-5
+	-15
+	-9
+	-4
+	-4
+	
+	Positive Odd numbers from given array are as follows: 
+	11
+	7
+	1
+	23
+

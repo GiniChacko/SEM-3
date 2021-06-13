@@ -1,0 +1,37 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+ -------------------------------------------------------------------------------------------------------
+
+Postlabs:
+
+Q1. Search a java program from internet  to sort an array using inbuilt sort() method Arrays.sort() . 
+    Understand it and add as postlab
+
+Ans : The following code snippet demonstrates how Arrays.sort() can be used to sort an integer array:
+
+		import java.util.Arrays; 
+	
+		class Program {
+		    public static void main( String args[] ) {
+		        int [] arr = {5, -2, 23, 7, 87, -42, 509};
+		        System.out.println("The original array is: ");
+		        for (int num: arr) {
+		          System.out.print(num + " ");
+		        }
+		        Arrays.sort(arr);
+		        System.out.println("\nThe sorted array is: ");
+		        for (int num: arr) {
+		          System.out.print(num + " ");
+		        }
+		    }
+		}
+		
+-----------------------------------------------------------------------------------------------------------
+CONCLUSION : Arrays are one of the core functionalities of Java, and therefore it's really important 
+             to understand how they work. Here all the cases were tested successfully and understood.		
+		
+		
+------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,80 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+---------------------------------------------------------------------------------------------------------- 
+ OUTPUT : 
+ 
+	===============BANK ACCOUNT TESTER================
+	
+	Testing for Bank Account 1
+	BankAccount [balance=1.0, accountNo=7]
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 2
+	BankAccount [balance=1000.0, accountNo=101]
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 3
+	The balance in the bank account 3 after withdrawing 500 is 1500.0
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 4
+	The balance in the bank account 4 after deposting 200 is 2200.0
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 5
+	The balance in the bank account 2 after deposting 5500 is 6500.0
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 6
+	Exception in thread "main" java.lang.IllegalArgumentException: Intial Balance must not be negative
+		at com.crce.oopmlab.BankAccount.<init>(BankAccount.java:48)
+		at com.crce.oopmlab.BankAccountTester.main(BankAccountTester.java:51)
+	
+**********************************************************************************************************
+	 
+	===============BANK ACCOUNT TESTER FOR CHECKED EXCEPTIONS================
+	
+	Testing for Bank Account 1
+	BankAccount [balance=1.0, accountNo=7]
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 2
+	BankAccount [balance=500.0, accountNo=10400]
+	BankAccountException [message=Deposit amount must not be negative]
+		at com.crce.oopmlab.checkedexception.BankAccount.deposit(BankAccount.java:102)
+		at com.crce.oopmlab.checkedexception.BankAccountTester.main(BankAccountTester.java:32)
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 3
+	BankAccount [balance=500.0, accountNo=10400]
+	BankAccountException [message=Withdrawal amount must not be less than the balance]
+		at com.crce.oopmlab.checkedexception.BankAccount.withdraw(BankAccount.java:118)
+		at com.crce.oopmlab.checkedexception.BankAccountTester.main(BankAccountTester.java:48)
+	-------------------------------------------------------------------------
+	
+	ALL EXCEPTIONS SUCCESSFULLY CHECKED !!!
+	
+***********************************************************************************************************	
+	
+	===============BANK ACCOUNT TESTER FOR UNCHECKED EXCEPTIONS================
+	
+	Testing for Bank Account 1
+	BankAccount [balance=1.0, accountNo=7]
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 2
+	The blance in account 1 after the transaction is 101.0
+	The blance in account 2 after the transaction is 400.0
+	-------------------------------------------------------------------------
+	
+	Testing for Bank Account 3
+	BankAccount [balance=200.0, accountNo=10400]
+	Exception in thread "main" BankAccountException [message=Withdrawal amount must not be less than the balance]
+		at com.crce.oopmlab.uncheckedexception.BankAccount.withdraw(BankAccount.java:114)
+		at com.crce.oopmlab.uncheckedexception.BankAccountTester.main(BankAccountTester.java:37)
+		
+***********************************************************************************************************		
+		 

@@ -1,0 +1,61 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+ -----------------------------------------------------------------------------------------------------------
+ 
+ Q.1] Explain Top 10 Exceptions in java programming.
+ 
+ Ans : 
+ 
+ 	1.]ArrayIndexOutOfBoundsException
+       It is the child class of RuntimeException and hence it is an unchecked Exception. It is raised 
+       automatically by the JVM whenever we are trying to access the array element with out of range index.
+       
+    2.]NullPointerException
+       It is the child class of RuntimeException and hence it is an unchecked Exception.
+       It is raised automatically by the JVM, whenever we are trying to perform any operation on null.
+    
+    3.]StackOverflowError
+       It is the child class of VirtualMachineError, hence it is unchecked and it is raised by the JVM.
+       It will raise whenever we are trying to perform recursive method invocation.
+    
+    4.]NoClassDefFoundError
+       It is the child class of LinkageError , hence it is unchecked and raised automatically by the JVM. 
+       Whenever the JVM unable to locate the required classes in the class path. Then it will raise this
+       NoClassDefFoundError.
+    
+    5.]ClassCastException
+       It is the child class of RuntimeException and hence it is an unchecked Exception. It is raised
+       automatically by the JVM, whenever we are trying to type cast parent object to child type.
+    
+    6.]ExceptionInInitializerError
+       It is the child class of LinkageError , hence it is unchecked and raised automatically by the JVM. 
+       If any exception raised while performing initialization for static variables and while executing 
+       static blocks, the JVM throws this error.
+    
+    7.]IllegalArgumentException
+      It is the child class of RuntimeException and hence it is an unchecked Exception. It is raised 
+      automatically by the JVM. Raised explicitly by the programmer or by the API developer to indicate 
+      that a method has been invoked with an invalid argument.
+    
+    8.]NumberFormatException
+       It is the child class of IllegalArgumentException and hence it is an unchecked Exception. 
+       It is raised automatically by the JVM. Raised explicitly by the programmer or API developer to 
+       indicate that trying to convert String to number type or the String is not properly formatted.
+    
+    9.]IllegalStateException
+       It is the child class of RuntimeException and hence it is an unchecked Exception. 
+       It is raised by the programmer or API developer to indicate that a method has been invoked 
+       at an inappropriate time.
+    
+    10.]AssertionError
+        It is the child class of RuntimeException and hence it is an unchecked Exception. 
+        It is raised by the programmer or API developer to indicate that the assert statement is failed.
+        
+-------------------------------------------------------------------------------------------------------------
+CONCLUSION : Java Exceptions are great way of handling exceptions. It ensures program integrity in any 
+             condition. Programmers should always try to use exceptions as it makes their code more reliable.
+             
+-------------------------------------------------------------------------------------------------------------                      

@@ -1,0 +1,72 @@
+/**
+ * NAME : GINI CHACKO
+ * CLASS : SE COMPS B
+ * ROLL : 8942
+ */
+ 
+OUTPUT FOR POINT TESTER CLASS :
+ 
+==========================
+testdistancefromorigin()
+Distance of the point from the origin is : 5.830951894845301
+==========================
+testdistancefrompoint()
+Distance between the two point is : 2.8284271247461903
+=================
+testtranslate()
+The point after translation is : (16.0,27.0)
+======================
+testerxMirrorImage()
+The Mirror Image of the point is : (-5.0,-7.0)
+
+===========================
+testcalculateCenterPoint()
+The Midpoint is :(4.5 , 6.0)
+
+=============================
+testcalculateCenterPoint3()
+The Midpoint is :(3.6666666666666665 , 6.666666666666667)
+
+OUTPUT FOR CIRCLE TESTER CLASS:
+
+==========================
+testPerimeter()
+The Perimeter of Circle = 43.96
+==========================
+testChangeradius()
+The radius of Circle = 14.0
+==========================
+testPointInsidecircle()
+5.0
+Point Inside circle = true
+==========================
+testTranslate()
+The point after translation is : (13.0,20.0)
+==========================
+testIntersectCircles()
+The circles DO NOT intersect
+
+
+OUTPUT FOR THE RECTANGLE CLASS :
+
+==========================
+testPerimeter()
+
+The perimeter of the rectangle is : 51.639609674494054
+==========================
+testTranslate()
+
+The point after translation is : (22.0,31.0)
+The point after translation is : (31.0,26.0)
+The point after translation is : (26.0,46.0)
+The point after translation is : (36.0,26.0)
+==========================
+testArea()
+
+The Area of Rectangle = 21.213203435596423
+==========================
+testcontainsRectangle()
+Rectangles Overlap
+
+OUTPUT FOR THE TRIANGLE TESTER CLASS : 
+

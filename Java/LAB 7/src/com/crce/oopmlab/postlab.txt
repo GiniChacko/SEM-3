@@ -1,0 +1,37 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+------------------------------------------------------------------------------------------------
+POSTLABS : 
+
+Q1]  Write Any 5 Applications of 2-D array.
+
+Ans : 	1.Many games use two dimensional arrays to plot the visual environment of a game. 
+		2.Positions in a two dimensional array are referenced like a map using horizontal and 
+		  vertical reference numbers. They are sometimes called matrices.
+		3.Often data come naturally in the form of a table, e.g.,
+		  spreadsheet, which need a two-dimensional array.
+		4.Tic-Tac-Toe game and tracking golf scores are some applications of 2d arrays.
+		5.2d arrays are used to implement mathematical vectors and matrices,as well as other
+		  kinds of rectangular tables.
+------------------------------------------------------------------------------------------------
+Q2]  What precautions we need to take while using 2-D arrays?
+
+Ans : 	1.We should take care of ArrayIndexOutOfBoundsException by not giving in negative 
+		  values for rows and columns and also by not giving value greater than or equal to 
+		  size of array.
+		2.While adding or subtracting matrices we should take care that both matrices should be 
+		  of the same order. 
+		3.In multiplication no of columns in first matrix should be equal to no of rows in 
+		  second matrix, for valid multiplication.
+
+--------------------------------------------------------------------------------------------------		  
+	CONCLUSION : 2D Arrays in Java are the most simpler of the multi-dimensional arrays. 
+				 Hence addition,subtraction, multiplication,cofactor, determinant,transpose,
+				 and inverse of a matrix was successfully experimented and tested.
+				 
+--------------------------------------------------------------------------------------------------				  
+	
+		  

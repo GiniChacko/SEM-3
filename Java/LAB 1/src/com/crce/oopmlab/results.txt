@@ -1,0 +1,82 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+ 
+	==========================================
+	 OUTPUT for ThoughtOfTheDay.java  :  
+	========================================== 
+	Today's date is 27/09/2020
+	Today is Sunday
+	
+	Todays Quote is 
+	As you think so you become
+	---By Sadguru Wamanrao Pai
+	The Quote is Life learning
+	
+	Total number of inspirational Messages are 2
+	Todays Quote Of the day is :
+	You always pass failure on the way to success.
+	Mickey Rooney
+	inspirational
+	
+	Total number of motivational Messages are 5
+	Todays Quote Of the day is :
+	It always seems impossible until it
+	is done.
+	sunil
+	motivational
+	
+	Total number of Life learning Messages are 2
+	Todays Quote Of the day is :
+	As you think so you become
+	Sadguru Wamanrao Pai
+	Life learning
+ 
+ 
+   ==========================================
+	 OUTPUT for QuoteTester.java  :  
+   ========================================== 
+   
+	=================
+	testPrintDate()
+	=================
+	Today's date is 27/09/2020
+	Today is Sunday
+	
+	=================
+	testPrintRandom()
+	=================
+	
+	Todays Quote is 
+	As you think so you become
+	---By Sadguru Wamanrao Pai
+	The Quote is Life learning
+	=================
+	testPrintQuote()
+	=================
+	
+	Total number of motivational Messages are 5
+	Todays Quote Of the day is :
+	To succeed in your mission, you must have single-minded devotion to your goal
+	Dr. A.P.J. Abdul Kalam
+	motivational
+	
+	Total number of inspirational Messages are 2
+	Todays Quote Of the day is :
+	You always pass failure on the way to success.
+	Mickey Rooney
+	inspirational
+	
+	Total number of perfectionist Messages are 1
+	Todays Quote Of the day is :
+	No one is perfect - that’s why pencils have erasers.
+	Wolfgang Riebe
+	perfectionist
+	
+	Total number of Life learning Messages are 2
+	Todays Quote Of the day is :
+	You are Architect of your Destiny
+	Sadguru Wamanrao Pai
+	Life learning

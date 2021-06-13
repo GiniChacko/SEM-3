@@ -1,0 +1,58 @@
+/**
+ * NAME : GINI CHACKO
+ * CLASS : SE COMPS B
+ * ROLL : 8942
+ */
+ 
+ Q1. Explain  advantages and disadvantages of Inheritance.
+ 
+	1.]The main advantages of inheritance are code reusability and readability.
+	2.]When child class inherits the properties and functionality of parent class, 
+	   we need not write the same code again in child class.
+	3.]This makes it easier to reuse the code, makes us write the less code and the 
+	   code becomes much more readable.
+	
+	4.]The main disadvantage of using inheritance is that the two classes 
+	   (base and inherited class) get tightly coupled.
+	5.]This means one cannot be used independently of each other.
+	6.]Also with time, during maintenance adding new features both base as well as
+	   derived classes are required to be changed.
+	   
+------------------------------------------------------------------------------------------------------------
+
+Q2. Explain concept of  Static Binding and Dynamic Binding with respect to above example.
+
+    Static Binding :
+    
+	1.]The binding which can be resolved at compile time by compiler is known as static or early binding. 
+	   The binding of static, private and final methods is compile-time.
+	2.]The reason is that the these method cannot be overridden and the type of the class is determined 
+	   at the compile time. 
+	3.]For the above example, BankAccount class is the superclass and all other classes are its subclasses.
+	   Suppose we create an object of the subclass with reference to superclass.
+	   Eg. 
+	   
+	   BankAccount a = new SavingsAccount();
+	   
+	   Here if any static method of subclass SavingsAccount is invoked with object a and if same static
+	   method is present in superclass then compiler will invoke method of superclass because it knows
+	   that method of superclass is static and can't be overridden in subclasses.
+	   
+	Dynamic Binding :
+	   
+	1.]When compiler is not able to resolve the call/binding at compile time, such binding is known as 
+	   Dynamic or late Binding. Method Overriding is a perfect example of dynamic binding as in overriding 
+	   both parent and child classes have same method and in this case the type of the object determines
+	   which method is to be executed. 
+	2.]Consider the same example as considered in static binding. If we invoke any method of subclass and
+	   it is not static and also if same method is present in superclass and it is not static then method
+	   of subclass will be invoked. Here, compiler goes by referencing variable and not y type of object.
+	   Therefore, the binding would be delayed to runtime.	   
+		   
+		   
+CONCLUSION : The concept of inheritance and it's use, the concept of static and dynamic binding was 
+             understood by this bank application project.
+             All the methods were tested successfully and understood. 
+-----------------------------------------------------------------------------------------------------------	
+		   
+	   

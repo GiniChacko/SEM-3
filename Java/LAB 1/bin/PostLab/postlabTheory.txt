@@ -1,0 +1,36 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+ 
+================================================== 
+POSTLAB THEORY QUESTIONS [LAB 1(Q.4, Q.5, Q.6)] :
+==================================================
+
+
+ Q4] 1. Array is a fixed length data structure while ArrayList is a variable length
+     Collection class. You can not change length of Array once created in Java
+     but ArrayList re-size itself when it gets full.
+
+    2. All kinds of Array provides length variable which denotes length of Array 
+    while ArrayList provides size() method to calculate size of ArrayList in Java.
+
+    3. One more major difference between ArrayList and Array is that, you can not
+    store primitives in ArrayList, it can only contain Objects, While Array can 
+    contain both primitives and Objects in Java.
+  
+
+    4. Java provides add() method to insert element into ArrayList and you can 
+    simply use assignment operator to store element into Array. 
+----------------------------------------------------------------------------------------------
+
+Q5] 1.Some oops concepts like - encapsulation,i.e to declare variables of the 
+    Quote class as private ,and also to provide public setter and getter methods
+    that will be used to write and read these variable values.
+----------------------------------------------------------------------------------------------    
+   
+Q6] In the quote class,the variables were declared as public initially,it 
+    should be private so that they are not pirated from any other class.
+    And to access these variables we use the getter and setter methods.
+

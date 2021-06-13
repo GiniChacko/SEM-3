@@ -1,0 +1,80 @@
+/**
+ * NAME : GINI CHACKO
+ * CLASS : SE COMPS B
+ * ROLL : 8942
+ */
+--------------------------------------------------------------------------------------------------------------
+Q1 .Differentiate  between interface and abstract classes?
+
+--------------------------------------------------------------------------------------------------------------
+Solution : 
+	          Abstract class                                     Interface
+	
+	1) Abstract class can have abstract            1) Interface can have only abstract methods.
+	   and non-abstract methods.                      Since Java 8, it can have default and static methods also.
+	   
+	2) Abstract class doesn't support 	           2) Interface supports multiple inheritance.
+	   multiple inheritance.
+	   
+	3) Abstract class can have final,non-final,    3) Interface has only static and final variables.
+	   static and non-static variables.
+	   
+	4) Abstract class can provide the 	           4) Interface can't provide the implementation 
+	   implementation of interface.                   of abstract class.
+	   
+	5) The abstract keyword is used to             5) The interface keyword is used to declare interface.
+	   declare abstract class.
+	   
+	6) An abstract class can extend another Java   6) An interface can extend another Java interface only.
+	   class and implement multiple Java 
+	   interfaces.
+	   
+	7) An abstract class can be extended using 	   7) An interface can be implemented using keyword "implements".
+	   keyword "extends".
+	   
+	8) A Java abstract class can have class 	   8) Members of a Java interface are public by default.
+	   members like private, protected, etc.
+	   
+	9) Example:                                    9) Example:
+	   public abstract class Shape{                   public interface Drawable{
+	   public abstract void draw();                   void draw();
+	   }	                                          }
+
+--------------------------------------------------------------------------------------------------------------
+Q2. Can an interface include instance variables? Is below interface okay??What is wrong in code below?
+
+interface SomeInterface
+{
+  public  int x = 32;
+  public double y;
+
+  public double addup( );
+}
+
+Solution : 
+	1.] You can never have an instance variable in an interface. Variables declared in an interface are by 
+	    default public, static and final by default. So you can use interfaces to define constants.
+	2.] Variable declared inside Interface are public, static, final(by default) making it not an instance 
+	    variable for Interface.
+	3.] The below interface is not okay, because in interface we cannot declare variables.
+	  
+--------------------------------------------------------------------------------------------------------------
+Q3. Why cannot the methods in an interface be private?
+
+Solution :
+	1.] If the members of the interface are private you cannot provide implementation to the methods or, 
+	    cannot access the fields of it in the implementing class.
+	2.] Therefore, the members of an interface cannot be private. If you try to declare the members of an
+	    interface private, a compile time error is generated saying “modifier private not allowed here”.
+
+--------------------------------------------------------------------------------------------------------------
+Q4. Can you keep all classes and interfaces in one file StoreTester.java and execute it . 
+    What rule you need to follow if you can do so?
+
+Solution :
+	1.] Yes it is possible to keep all classes and interfaces in one file StoreTester.java and execute it. 
+	2.] But to keep all classes and interfaces in one file StoreTester.java, the StoreTester.java Class has
+	    to be public and the remaining interfaces and classes must be default.
+	    
+------------------------------------------------------------------------------------------------------------	    
+	    

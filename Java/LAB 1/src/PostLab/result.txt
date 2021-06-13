@@ -1,0 +1,89 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+	
+=================================================
+POSTLAB QUESTIONS OUTPUT [LAB 1(Q.1, Q.2, Q.3)] :
+=================================================
+	=================
+	testPrintDate()
+	=================
+	Today's date is 27/09/2020
+	Today is Sunday
+	=================
+	testPrintRandom()
+	=================
+	
+	Todays Quote is 
+	To succeed in your mission, you must have single-minded devotion to your goal
+	---By Dr. A.P.J. Abdul Kalam
+	The Quote is motivational
+	=================
+	testPrintQuote()
+	=================
+	
+	Total number of Life learning Messages are 2
+	Todays Quote Of the day is :
+	You are Architect of your Destiny
+	Sadguru Wamanrao Pai
+	Life learning
+	
+	Total number of perfectionist Messages are 1
+	Todays Quote Of the day is :
+	No one is perfect - that’s why pencils have erasers.
+	Wolfgang Riebe
+	perfectionist
+	
+	Total number of motivational Messages are 5
+	Todays Quote Of the day is :
+	Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.
+	Dr. A.P.J. Abdul Kalam
+	motivational
+	
+	Total number of inspirational Messages are 2
+	Todays Quote Of the day is :
+	“You’re off to great places, today is your day. Your mountain is waiting, so get on
+	your way.
+	sunil
+	inspirational
+	=======================
+	testPrintQuoteAuthor()
+	=======================
+	
+	Total number of  Messages written by Sadguru Wamanrao Pai is 2
+	
+	Total number of  Messages written by Mickey Rooney is 1
+	
+	Total number of  Messages written by sunil is 2
+	
+	Total number of  Messages written by Dr. A.P.J. Abdul Kalam is 4
+	===================
+	testPrintAddQuote()
+	===================
+	Enter : 
+	id
+	QuoteValue
+	QuoteAuthor
+	QuoteType
+	in the following sequence
+	
+	11
+	Sometimes you will never know the VALUE of a moment, until it becomes a MEMORY.
+	DR.Seuss
+	inspirational
+	Quote [quoteId=1, quoteValue=“You’re off to great places, today is your day. Your mountain is waiting, so get on
+	your way., quoteAuthor=sunil, quoteType=inspirational]
+	Quote [quoteId=2, quoteValue=You always pass failure on the way to success., quoteAuthor=Mickey Rooney, quoteType=inspirational]
+	Quote [quoteId=3, quoteValue=No one is perfect - that’s why pencils have erasers., quoteAuthor=Wolfgang Riebe, quoteType=perfectionist]
+	Quote [quoteId=4, quoteValue=It always seems impossible until it
+	is done., quoteAuthor=sunil, quoteType=motivational]
+	Quote [quoteId=5, quoteValue=As you think so you become, quoteAuthor=Sadguru Wamanrao Pai, quoteType=Life learning]
+	Quote [quoteId=6, quoteValue=You are Architect of your Destiny, quoteAuthor=Sadguru Wamanrao Pai, quoteType=Life learning]
+	Quote [quoteId=7, quoteValue=Dream, dream, dream. Dreams transform into thoughts and thoughts result in action., quoteAuthor=Dr. A.P.J. Abdul Kalam, quoteType=motivational]
+	Quote [quoteId=8, quoteValue=To succeed in your mission, you must have single-minded devotion to your goal, quoteAuthor=Dr. A.P.J. Abdul Kalam, quoteType=motivational]
+	Quote [quoteId=9, quoteValue=Dream, dream, dream. Dreams transform into thoughts and thoughts result in action., quoteAuthor=Dr. A.P.J. Abdul Kalam, quoteType=motivational]
+	Quote [quoteId=10, quoteValue=Dream, dream, dream. Dreams transform into thoughts and thoughts result in action., quoteAuthor=Dr. A.P.J. Abdul Kalam, quoteType=motivational]
+	Quote [quoteId=11, quoteValue=Sometimes you will never know the VALUE of a moment, until it becomes a MEMORY., quoteAuthor=DR.Seuss, quoteType=inspirational]
+	The Quote is successfully ADDED !!!

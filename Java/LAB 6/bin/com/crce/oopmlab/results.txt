@@ -1,0 +1,104 @@
+/* NAME : GINI CHACKO
+ * ROLL : 8942
+ * CLASS : SE COMPS B
+ * BATCH : B
+ */
+ --------------------------------------------------------------------------------------------------------------
+ 
+	*****Printing reverse of a sentence -  without recursion*****
+	
+	Enter a string to reverse : 
+	May God Bless You
+	
+	Reversed string is uoY sselB doG yaM
+	----------------------------------------------------------------------
+	*****Printing reverse of a sentence – with recursion*****
+	
+	Enter a string to reverse (recursive method) : 
+	May God Bless You
+	
+	Reversed string is uoY sselB doG yaM
+	----------------------------------------------------------------------
+	*****Fetching no of words in the file*****
+	
+	Total no of words in the file is 73
+	----------------------------------------------------------------------
+	*****Printing whether the given  string is palindrome or not*****
+	
+	Enter a string to check if palindrome or not : 
+	malayalam
+	
+	The word malayalam is a palindrome
+	----------------------------------------------------------------------
+	*****Printing  Number of vowels and consonants in a given sentence*****
+	
+	Enter a string to count no of vowels and consonants : 
+	programming
+	
+	No. of vowels in the string = 3
+	No. of consonants in the string = 8
+	----------------------------------------------------------------------
+	*****Printing the character and its frequency in order of its occurrence*****
+	
+	Enter a string to get frequency of characters in order of occurence : 
+	programming
+	
+	Characters and their corresponding frequencies
+	p-1
+	r-2
+	o-1
+	g-2
+	a-1
+	m-2
+	i-1
+	n-1
+	----------------------------------------------------------------------
+	*****Print characters having even frequencies in order of occurrence*****
+	
+	Enter a string to get characters having even frequency in order of occurence : 
+	programming
+	
+	r
+	g
+	r
+	m
+	m
+	g
+	----------------------------------------------------------------------
+	*****Printing the characters having odd frequencies in order of occurrence*****
+	
+	Enter a string to get characters having odd frequency in order of occurence : 
+	programming
+	
+	p
+	o
+	a
+	i
+	n
+	----------------------------------------------------------------------
+	*****Printing characters in string in decreasing order of frequency count*****
+	
+	Enter a string to print characters in decreasing order of their frequency :  
+	programming
+	r - 2
+	m - 2
+	g - 2
+	p - 1
+	o - 1
+	n - 1
+	i - 1
+	a - 1
+	----------------------------------------------------------------------
+	
+	*****Printing the words in string in reverse order*****
+	
+	Enter a string to reverse the words in it : 
+	May God Bless You
+	
+	Words in the string reversed!!!
+	 
+	You Bless God May
+	----------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------------------------------	

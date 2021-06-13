@@ -1,0 +1,21 @@
+1. Explain with the help of diagram, how does Thread implements their own Stack?
+
+
+
+
+2. What happens when you start the thread 2 times?
+
+	A thread can't be started twice. Once a thread is started, it can never be started again.
+	If you does so, an IllegalThreadStateException is thrown. 
+	In such case, thread will run once but for second time, it will throw exception.	
+
+
+3. What are different ways to create user defined Thread?
+
+	There are two ways to create a thread:
+	i.  By Extending the Thread class
+	ii. By Implementing the Runnable interface
+
+
+
+
